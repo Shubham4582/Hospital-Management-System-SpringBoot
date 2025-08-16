@@ -100,5 +100,4 @@ public class Hospital_Controller {
 	public Department createDepartment(@RequestBody Department d) {
 		return dao.saveDepartment(d);
 	}
-
 }
